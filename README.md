@@ -1,6 +1,6 @@
 ﻿# sky
 
-`sky` is a Sky-compatible Windows Computer Use helper written in
+`sky` is a codex-compatible Windows Computer Use helper written in
 Rust. It exposes the Window2-style helper protocol used by model-facing desktop
 automation clients:
 
