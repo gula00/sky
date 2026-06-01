@@ -1,0 +1,7 @@
+{
+  "id": "005-get-window-state-screenshot",
+  "method": "get_window_state",
+  "paramsFrom": "firstWindowStateScreenshot",
+  "expectObjectKeys": ["screenshots", "window"],
+  "expectScreenshot": true
+}

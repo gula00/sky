@@ -1,0 +1,6 @@
+{
+  "id": "001-list-windows",
+  "method": "list_windows",
+  "params": {},
+  "expectArray": true
+}

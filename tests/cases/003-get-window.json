@@ -1,0 +1,6 @@
+{
+  "id": "003-get-window",
+  "method": "get_window",
+  "paramsFrom": "firstWindow",
+  "expectObjectKeys": ["app", "id", "title"]
+}

@@ -1,0 +1,18 @@
+﻿{
+  "name": "sky",
+  "version": "0.1.0",
+  "description": "Sky-compatible Windows Computer Use helper written in Rust",
+  "type": "module",
+  "license": "MIT OR Apache-2.0",
+  "scripts": {
+    "build": "cargo build",
+    "build:release": "cargo build --release",
+    "check": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/check.ps1",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/package-release.ps1",
+    "smoke": "node ./scripts/smoke-stdio.mjs",
+    "test": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/check.ps1",
+    "test:ab": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/check.ps1 -Fixtures -AB",
+    "test:fixtures": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/check.ps1 -Fixtures"
+  }
+}
+

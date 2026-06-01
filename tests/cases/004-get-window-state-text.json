@@ -1,0 +1,6 @@
+{
+  "id": "004-get-window-state-text",
+  "method": "get_window_state",
+  "paramsFrom": "firstWindowStateText",
+  "expectObjectKeys": ["accessibility", "screenshots", "window"]
+}

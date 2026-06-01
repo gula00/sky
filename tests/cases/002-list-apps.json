@@ -1,0 +1,6 @@
+{
+  "id": "002-list-apps",
+  "method": "list_apps",
+  "params": {},
+  "expectArray": true
+}
